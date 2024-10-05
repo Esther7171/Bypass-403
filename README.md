@@ -1,8 +1,8 @@
-# Bypass-403
-Bypassing 403 Forbidden: Technique and Methodology
+# Bypass-forbidden
+Bypassing Forbidden 403,301: Technique and Methodology
 
 ## URL Manipulation
-Add this in paths of the URL and the file which is forbidden
+Add this in paths of the URL and the file which is forbidden.
 - /*-
 - /%2f/
 - /./
@@ -14,6 +14,7 @@ Add this in paths of the URL and the file which is forbidden
 
 
 ## Headers Manipulation
+Adding custom Headers in request.
 Try to add Add this custom url
 * X-Custom-IP-Authorization: 127.0.0.1
 * X-Forwarded-For: 127.0.0.1
